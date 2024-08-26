@@ -22,4 +22,4 @@ Exemplo:
 Funcionalidade Extra
 Inclui um botão para copiar o texto criptografado ou descriptografado para a área de transferência, com funcionalidade similar ao comando "Ctrl+C" ou à opção "copiar" do menu de aplicativos.
 GitHub Pages
-[Link para o Projeto no GitHub](Caminho do Projeto no GitHub)
+[Link para o Projeto no GitHub](https://github.com/srokorb/decodificador-texto-alura/tree/main)
