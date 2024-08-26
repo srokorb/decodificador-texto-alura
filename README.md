@@ -2,7 +2,7 @@
 Sobre o Projeto
 Este projeto é o resultado do primeiro desafio do programa ONE, realizado pela Oracle em parceria com a Alura. Trata-se de um decodificador de texto com design responsivo, desenvolvido em HTML, CSS e JavaScript.
 
-<p align="center"> <img width="600" height="600" src="/img/Imagem-do-projeto.jpg" alt="Imagem do Projeto"> </p>
+<p align="center"> <img width="600" height="600" src="https://github.com/srokorb/decodificador-texto-alura/blob/main/img/Imagem-do-projeto.JPG" alt="Imagem do Projeto"> </p>
 Chave de Criptografia
 As chaves de criptografia utilizadas são:
 
