@@ -1,0 +1,58 @@
+/* Reset padrão para garantir consistência entre os elementos */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+/* Definição de elementos de estrutura semântica */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+/* Estilização básica do corpo */
+body {
+	line-height: 1;
+}
+
+/* Remoção de estilo padrão de listas */
+ol,
+ul {
+	list-style: none;
+}
+
+/* Remoção de aspas em blockquotes e citações */
+blockquote,
+q {
+	quotes: none;
+}
+
+/* Remoção de conteúdo padrão em blockquotes e citações */
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+	content: '';
+}
+
+/* Configuração de tabelas para colapso de bordas */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
