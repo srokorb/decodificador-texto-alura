@@ -20,8 +20,8 @@ As chaves de criptografia utilizadas são:
 
 **Exemplo:**
 
-"gato" => "gaitober"
-"gaitober" => "gato"
+* "gato" => "gaitober"
+* "gaitober" => "gato"
 ## Funcionalidade Extra
 Inclui um botão para copiar o texto criptografado ou descriptografado para a área de transferência, com funcionalidade similar ao comando "Ctrl+C" ou à opção "copiar" do menu de aplicativos.
 ## GitHub Pages
