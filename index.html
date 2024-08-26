@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Decodificador de Texto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="esquerda">
+            <img class="logo-alura" src="img/logo-alura.svg" alt="Logotipo Alura">
+            <form>
+                <textarea id="texto-principal" placeholder="Digite seu texto"></textarea>
+                <div class="alerta">
+                    <img src="img/warning.svg" alt="Alerta">
+                    <span>Apenas letras minúsculas e sem acento.</span>
+                </div>
+                <div class="botoes">
+                    <button class="bt-cripto" id="criptografar">Criptografar</button>
+                    <button class="bt-descripto" id="descriptografar">Descriptografar</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="direita">
+            <div class="sem-retorno">
+                <img src="img/looking.svg" id="mensagem-nao-encontrada" alt="Nenhuma mensagem encontrada">
+                <h3 class="titulo-sem-retorno">Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto para criptografar ou descriptografar.</p>
+            </div>
+
+            <div class="texto-criptografado d-none">
+                <p></p>
+                <button class="bt-copiar" id="copiar" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <a target="_blank" href="https://www.linkedin.com/in/luciano-de-souza-ferraz-1051361a6/">
+            <img src="img/linkedin_logo.svg" class="logo-link" alt="LinkedIn">
+        </a>
+        <a target="_blank" href="https://github.com/srokorb">
+            <img src="img/github_logo.svg" class="logo-link" alt="GitHub">
+        </a>
+        <p class="copyright">&copy; 2024 Desenvolvido por Luciano Ferraz</p>
+    </footer>
+
+    <script src="js/criptografa-e-descriptografa.js"></script>
+    <script src="js/criptografo.js"></script>
+    <script src="js/copiar.js"></script>
+    <script src="js/text-area.js"></script>
+</body>
+
+</html>
