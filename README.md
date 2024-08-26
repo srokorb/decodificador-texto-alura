@@ -7,11 +7,11 @@ Este projeto é o resultado do primeiro desafio do programa ONE, realizado pela 
 ## Chave de Criptografia
 As chaves de criptografia utilizadas são:
 
-"e" se converte em "enter"
-"i" se converte em "imes"
-"a" se converte em "ai"
-"o" se converte em "ober"
-"u" se converte em "ufat"
+* "e" se converte em "enter"
+* "i" se converte em "imes"
+* "a" se converte em "ai"
+* "o" se converte em "ober"
+* "u" se converte em "ufat"
 
 ## Funcionalidades
 * Aceita apenas letras minúsculas.
